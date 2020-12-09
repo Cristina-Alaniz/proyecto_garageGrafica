@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  background-color: black;
+}
+
+nav{
+  display: flex;
+  box-sizing: content-box;
+}
+
+
+.presentacion{
+   text-align: center;
+   height: 30vh 15vw;
+   display: flex;
+   float: left;
+}
+
+.video1{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  float: left;
+  justify-content: center;
+  border-top: 0%;
+
+}
+.galeriainicio{
+    justify-content: center;
+}
+
+.footer{
+  clear: both;
+  background-color: yellow;
+  font-family: monospace;
+  font-size: 5vh;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 2%;
+}
+@media (min-width:850px){
+  .galeriainicio{
+     width: 50%;
+     height: 50%;
+     float:left;
+    }
+}
