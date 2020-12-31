@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+header{
+  background-color: black;
+  height: 20vh;
+}
+body{
+  height: 80%;
+}
+.logo{
+  background-color: black;
+}
+
+nav{
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  text-align: right;
+  width: 80vh;
+}
+
+main{
+  height: 80%;
+  background-color: #FF7F50;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 3vh;
+}
+h5{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.presentacion{
+  height:40vh;
+}
+.mapa{
+  height: 100%;
+  width:100%;
+  box-sizing: border-box;
+}
+.medios{
+  height: 65vh;
+  padding-left: 5%;
+}
+.imagencontacto{
+  height: 50%;
+  width: 90%;
+  float: left;
+  margin-left: 10%;
+  padding-left: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+
+.footer{
+  background-color: yellow;
+  font-family: monospace;
+  font-size: 40%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  width: 100%;
+  height: 15vh;
+}
+@media (min-width:770px){
+  main{
+    height: 90vw;
+  }
+  .mapa{
+   width: 48%;
+   height: 150vh;
+   float:left;
+   box-sizing: border-box;
+   padding-top: 4vw;
+   padding-left: 10vh;
+
+  }
+  .medios{
+      width: 40%;
+      height: 40vh;
+      float:left;
+      box-sizing: border-box;
+      font-family:sans-serif;
+      font-weight: bold;
+      font-size: 4vh;
+      padding-top: 8vw;
+  }
+
+  .imagencontacto{
+    width: 100%;
+    height: 30%;
+    float:flex;
+  }
+}

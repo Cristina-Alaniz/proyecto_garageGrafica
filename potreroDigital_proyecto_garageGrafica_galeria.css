@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+header{
+  background-color: black;
+  height: 20vh;
+}
+
+nav{
+  height: 20vh;
+  box-sizing: border-box;
+  flex-direction: column;
+  text-align: right;
+  width: 80vh;
+}
+
+main{
+  height: 100%;
+  background-color: #D3D3D3;
+  display: flex;
+
+}
+#foto1{
+  width: 80vw;
+  height:50%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-top: 2%;
+  padding-top: 2%;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+
+}
+#foto2{
+  width: 80vw;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-top: 1%;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+
+}
+#foto3{
+  width: 80vw;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+
+
+}
+#foto4{
+  width: 80vw;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+
+}
+#foto5{
+  width: 80vw;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+
+}
+#foto6{
+  width: 80vw;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-top: 7%;
+  padding-top: 7%;
+
+}
+#foto7{
+  width: 70%;
+  float: left;
+  margin-left: 10%;
+  padding-left: 10%;
+  margin-top: 10%;
+  padding-top: 10%;
+
+}
+.footer{
+  clear: both;
+  background-color: yellow;
+  font-family: monospace;
+  font-size: 5vh;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 2%;
+}
+@media (min-width:770px){
+  main{
+    height: 80%;
+    background-color: #D3D3D3;
+    box-sizing:content-box;
+}
+  #foto1{
+    width: 30vw;
+    height:30vh;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+    padding-top: 5%;
+  }
+  #foto2{
+    width: 30vw;
+    height:30vh;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+    padding-top: 5%
+  }
+  #foto3{
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+  }
+  #foto4{
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+  }
+  #foto5{
+    width: 74%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+  }
+  #foto6{
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-bottom: 9%;
+    padding-bottom: 9%;
+  }
+  #foto7{
+    width: 60vw;
+    float: left;
+    margin-top: 7%;
+    padding-top: 7%;
+    margin-left: 15%;
+    padding-left: 15%;
+  }
+}
